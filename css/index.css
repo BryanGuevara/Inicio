@@ -1,0 +1,90 @@
+.redes-link {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.redes-link img {
+    width: 40px;
+    height: 40px;
+}
+
+body {
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.8);
+}
+
+h1 {
+    color: #333;
+    font-size: 55px;
+}
+
+p {
+    color: #666;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin: 0 1%;
+}
+
+.button .button-img {
+    width: 80px;
+    height: 80px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.button:hover .button-img {
+    transform: scale(1.2);
+}
+
+.button p {
+    transition: transform 0.3s ease-in-out;
+}
+
+.button:hover p {
+    transform: scale(1.6);
+}
+
+.redes-link:hover{
+    transform: scale(1.2);
+}
+
+.otros-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button.otros {
+    text-decoration: none;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.frase{
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
