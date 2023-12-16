@@ -38,6 +38,7 @@ h2 {
     justify-content: center;
     gap: 20px;
 }
+
 .web-card {
     display: flex;
     flex-direction: column;
