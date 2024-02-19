@@ -77,7 +77,7 @@ Licencia Pública General de GNU, versión 3 (GPLv3)
 
 Este trabajo está sujeto a los términos y condiciones de la Licencia Pública General de GNU, versión 3.
 
-Texto completo de la Licencia Pública General de GNU, versión 3: **[GPLv3](markdown/Licence.md)**
+Texto completo de la Licencia Pública General de GNU, versión 3: **[GPLv3](markdown/LICENSE.md)**
 
 ---
 ## BryanGuevara

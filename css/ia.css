@@ -1,0 +1,96 @@
+.volver-link {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #fff;
+}
+
+.volver-link img {
+    width: 40px; 
+    height: 40px;
+}
+
+body {
+    background-image: url('../img/fondo/IA.jpg'); 
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    padding-top: 20vh; 
+    text-shadow: 2px 2px 4px #000;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.web-card {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 250px;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
+}
+
+
+.web-card:hover {
+    transform: scale(1.05);
+}
+
+.card-img img {
+    width: 100%;
+    height: auto;
+}
+
+.card-info {
+    padding: 10px;
+}
+
+h3 {
+    margin: 0;
+}
+
+p {
+    color: #666;
+    margin: 5px 0;
+}
+
+.card-type {
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.accion { background-color: #e95757; }
+.aventura { background-color: #70e49c; }
+.arcade { background-color: #9e77f8; }
+.deportivo { background-color: #bd9344; }
+.estrategia { background-color: #76bae7; }
+.simulacion { background-color: #df70d0; }
+.mesa { background-color: #ffff; color: #000; }
+.musica { background-color: #dfa56487; }
+.rpg { background-color: rgba(103, 230, 132, 0.8); }
+.emulador { background-color: #c0c0c0; }

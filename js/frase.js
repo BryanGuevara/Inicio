@@ -1,4 +1,6 @@
 function mostrarFraseAleatoria() {
+  document.getElementById("frase").innerHTML = 'Cargando Frase...';
+
   fetch('./json/frases.json') 
     .then(response => response.json())
     .then(data => {
@@ -15,5 +17,5 @@ function mostrarFraseAleatoria() {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    mostrarFraseAleatoria();
+  mostrarFraseAleatoria();
 });
