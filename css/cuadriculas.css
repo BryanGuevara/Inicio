@@ -2,7 +2,7 @@
     position: absolute;
     top: 10px;
     left: 10px;
-    background-color: #fff;
+    background-color: transparent;
 }
 
 .volver-link img {
@@ -11,7 +11,6 @@
 }
 
 body {
-    background-image: url('../img/fondo/Jugar.jpg'); 
     height: 90vh;
     background-size: cover;
     background-position: center;
@@ -84,13 +83,14 @@ p {
     display: inline-block;
 }
 
-.accion { background-color: #e95757; }
-.aventura { background-color: #70e49c; }
-.arcade { background-color: #9e77f8; }
-.deportivo { background-color: #bd9344; }
-.estrategia { background-color: #76bae7; }
-.simulacion { background-color: #df70d0; }
-.mesa { background-color: #ffff; color: #000; }
-.musica { background-color: #dfa56487; }
-.rpg { background-color: rgba(103, 230, 132, 0.8); }
-.emulador { background-color: #c0c0c0; }
+.rojo { background-color: #e95757; }
+.verde { background-color: #70e49c; }
+.morado { background-color: #9e77f8; }
+.naranja { background-color: #bd9344; }
+.azul { background-color: #76bae7; }
+.rosa { background-color: #df70d0; }
+.blanco { background-color: #ffff; color: #000; }
+.naranja-oscuro { background-color: #dfa56487; }
+.verde-claro { background-color: rgba(103, 230, 132, 0.8); }
+.gris { background-color: #c0c0c0; }
+
