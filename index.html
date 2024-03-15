@@ -10,8 +10,10 @@
 <body id="body">
     <div class="container">
         <a href="html/Fuera.html" class="redes-link"><img src="img/iconos/Redes.png" alt="Redes Sociales"></a>
-
         <h1>Bienvenido</h1>
+        <form>
+            <input type="text" name="query" placeholder="Buscar con Google" id="busquedaInput">
+        </form>
         <div class="frase">
             <label id="frase">Cargando Frase...</label>
           </div>
@@ -31,6 +33,7 @@
     </div>
     <script src="js/img.js"></script>
     <script src="js/frase.js"></script>
+    <script src="js/google.js"></script>
     <script>
         mostrarFraseAleatoria();
     </script>

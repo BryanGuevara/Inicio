@@ -49,6 +49,22 @@ p {
     margin: 0 1%;
 }
 
+#busquedaInput {
+    width: 80%;
+    padding: 10px; 
+    border-radius: 20px; 
+    border: 1px solid #ccc; 
+    background-color: rgba(255, 255, 255, 0.7); 
+    transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out; 
+    margin: 20px auto; 
+}
+
+#busquedaInput:focus {
+    width: 90%; 
+    background-color: rgba(255, 255, 255, 1); 
+    outline: none; 
+}
+
 .button .button-img {
     width: 80px;
     height: 80px;
