@@ -83,11 +83,12 @@ p {
     display: inline-block;
 }
 
+.negro { background-color: #000; color: #ffff; }
 .rojo { background-color: #e95757; }
 .verde { background-color: #70e49c; }
 .morado { background-color: #9e77f8; }
 .naranja { background-color: #bd9344; }
-.azul { background-color: #76bae7; }
+.azul { background-color: #3a2cfd; color: #ffff;}
 .rosa { background-color: #df70d0; }
 .blanco { background-color: #ffff; color: #000; }
 .naranja-oscuro { background-color: #dfa56487; }
