@@ -4,10 +4,13 @@ function mostrarFraseAleatoria() {
   fetch('./json/frases.json') 
     .then(response => response.json())
     .then(data => {
-      var frases = data;
+      var frases = data.frases;
+      var frasesSeguidores = data.frasesSeguidores;
 
-      if (Array.isArray(frases) && frases.length > 0) {
-        var fraseAleatoria = frases[Math.floor(Math.random() * frases.length)];
+      var todasLasFrases = frases.concat(frasesSeguidores);
+
+      if (Array.isArray(todasLasFrases) && todasLasFrases.length > 0) {
+        var fraseAleatoria = todasLasFrases[Math.floor(Math.random() * todasLasFrases.length)];
         document.getElementById("frase").innerHTML = fraseAleatoria;
       } 
     })
