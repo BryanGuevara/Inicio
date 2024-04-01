@@ -29,6 +29,8 @@ body {
 h1 {
     color: #333;
     font-size: 55px;
+    margin-bottom: 0.5px;
+    padding-top: 25px;
 }
 
 p {
@@ -48,18 +50,18 @@ p {
     width: 30%;
     margin: 0 1%;
 }
-
-#busquedaInput {
+.busquedaInput {
     width: 80%;
     padding: 10px; 
     border-radius: 20px; 
     border: 1px solid #ccc; 
     background-color: rgba(255, 255, 255, 0.7); 
     transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out; 
-    margin: 20px auto; 
+    margin: 2px auto; 
+    text-align: center;
 }
 
-#busquedaInput:focus {
+.busquedaInput:focus {
     width: 90%; 
     background-color: rgba(255, 255, 255, 1); 
     outline: none; 

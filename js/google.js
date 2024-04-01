@@ -1,7 +1,5 @@
-document.getElementById('busquedaInput').addEventListener('keypress', function (e) {
-    if (e.key === 'Enter') {
-        e.preventDefault();
-        var query = this.value;
-        window.location.href = 'https://www.google.com/search?q=' + encodeURIComponent(query);
-    }
+document.getElementById('googleForm').addEventListener('submit', function (e) {
+    e.preventDefault();
+    var query = this.querySelector('.busquedaInput').value;
+    window.location.href = 'https://www.google.com/search?q=' + encodeURIComponent(query);
 });

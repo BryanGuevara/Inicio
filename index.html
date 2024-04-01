@@ -11,9 +11,14 @@
     <div class="container">
         <a href="html/redes.html" class="redes-link"><img src="img/iconos/Redes.png" alt="Redes Sociales"></a>
         <h1>Bienvenido</h1>
-        <form>
-            <input type="text" name="query" placeholder="Buscar con Google" id="busquedaInput">
+        <form id="googleForm">
+            <input type="text" name="query" placeholder="Buscar en Google" class="busquedaInput">
         </form>
+        
+        <form id="youtubeForm">
+            <input type="text" name="query" placeholder="Buscar en YouTube" class="busquedaInput">
+        </form>
+
         <div class="frase">
             <label id="frase">Cargando Frase...</label>
           </div>
@@ -34,6 +39,7 @@
     <script src="js/img.js"></script>
     <script src="js/frase.js"></script>
     <script src="js/google.js"></script>
+    <script src="js/youtube.js"></script>
     <script>
         mostrarFraseAleatoria();
     </script>
