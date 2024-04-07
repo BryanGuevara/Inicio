@@ -1,0 +1,76 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.board {
+  display: inline-block;
+  border: 10px solid #1a1a1a;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  font-size: 36px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cell:hover {
+  background-color: #f0f0f0;
+}
+
+.status {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.reset-btn {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.reset-btn:hover {
+  background-color: #45a049;
+}
+
+.winner-cell {
+  background-color: #4caf50;
+  color: white;
+}
+
+.tie .cell::after {
+  content: 'Empate';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: #f44336;
+}
