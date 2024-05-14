@@ -5,10 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bienvenido</title>
     <link rel="icon" type="image/png" href="img/paginas/google.png">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index/nothing.css" id="pagina-estilo">
+    <style>body {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: #f0f0f0;
+        background-image: url('../../img/fondo/loading.png');
+    }</style>
 </head>
 <body id="body">
-    <div class="container">
+    <div class="css1">
+        <div class="container">
         <a href="html/redes.html" class="redes-link"><img src="img/iconos/Redes.png" alt="Redes Sociales"></a>
         <h1>Bienvenido</h1>
         <form id="googleForm">
@@ -30,12 +38,100 @@
             <a href="html/IA.html" class="button" id="hablar"><img src="img/iconos/AI.png" alt="Hablar con una IA" class="button-img"><p>Hablar con una IA</p></a>
         </div>
         <div class="otros-container">
-            <a href="html/Otro.html" class="button otros" id="otros"><p>Otras cosas</p></a>
+            <a href="html/Otro.html" class="button otros" id="otros"><p>Otras Cosas</p></a>
+            <a href="html/Config.html" class="button otros" id="otros"><p>Ajustes</p></a>
         </div>
         <div class="otros-container">
             <a href="html/Readme.html" class="button otros" id="otros"><p>README.md</p></a>
         </div>
     </div>
+</div>
+
+<div class="css2">
+    <div class="container">
+        <h1>¡Konnichiwa!</h1>
+        <h2>¡Bienvenido al internet!</h2>
+        <form id="googleForm2">
+            <input type="text" name="query" placeholder="Buscar en Google" class="busquedaInput">
+        </form>
+        <form id="youtubeForm2">
+            <input type="text" name="query" placeholder="Buscar en YouTube" class="busquedaInput">
+        </form>
+        <div class="frase">
+            <label id="frase2">¡Preparando un poco de magia...</label>
+        </div>
+        <h2>¿Qué deseas explorar ahora?</h2>
+</div>
+    <div class="buttons">
+        <a href="html/Jugar.html" class="button" id="jugar">
+            <img src="img/iconos/Control.png" alt="Jugar" class="button-img">
+            <p>Jugar</p>
+        </a>
+        <a href="html/Navegar.html" class="button" id="navegar">
+            <img src="img/iconos/Navegar.png" alt="Navegar" class="button-img">
+            <p>Navegar</p>
+        </a>
+        <a href="html/IA.html" class="button" id="hablar">
+            <img src="img/iconos/AI.png" alt="Hablar con una IA" class="button-img">
+            <p>Hablar con una IA</p>
+        </a>
+        <a href="html/redes.html" class="button" id="redes">
+            <img src="img/iconos/Redes.png" alt="Redes Sociales" class="button-img">
+            <p>Redes Sociales</p>
+        </a>
+        <a href="html/Otro.html" class="button otros" id="otros">
+            <img src="img/iconos/Otros.png" alt="Otros" class="button-img">
+            <p>Otras Cosas</p>
+        </a>
+        <a href="html/Readme.html" class="button otros" id="readme">
+            <img src="img/iconos/markdown.png" alt="readme" class="button-img">
+            <p>README.md</p>
+        </a>
+        <a href="html/Config.html" class="button otros" id="config">
+            <img src="img/iconos/Ajustes.png" alt="ajustes" class="button-img">
+            <p>Ajustes</p>
+        </a>
+    </div>
+</div>
+
+<div class="css3">
+    <div class="barra-inferior">
+        <form id="googleForm3" class="buscador">
+            <input type="text" name="query" placeholder="Buscar en Google" class="busquedaInput">
+        </form>
+        <form id="youtubeForm3" class="buscador">
+            <input type="text" name="query" placeholder="Buscar en YouTube" class="busquedaInput">
+        </form>
+        <a href="html/Jugar.html" class="button" id="jugar">
+            <img src="img/iconos/Control.png" alt="Jugar" class="button-img">
+        </a>
+        <a href="html/Navegar.html" class="button" id="navegar">
+            <img src="img/iconos/Navegar.png" alt="Navegar" class="button-img">
+        </a>
+        <a href="html/IA.html" class="button" id="hablar">
+            <img src="img/iconos/AI.png" alt="Hablar con una IA" class="button-img">
+        </a>
+        <a href="html/redes.html" class="button" id="redes">
+            <img src="img/iconos/Redes.png" alt="Redes Sociales" class="button-img">
+        </a>
+        <a href="html/Otro.html" class="button otros" id="otros">
+            <img src="img/iconos/Otros.png" alt="Otros" class="button-img">
+        </a>
+        <a href="html/Config.html" class="button otros" id="config">
+            <img src="img/iconos/Ajustes.png" alt="ajustes" class="button-img">
+        </a>
+        <a href="html/Readme.html" class="button otros" id="readme">
+            <img src="img/iconos/markdown.png" alt="readme" class="button-img">
+        </a>
+  </div>
+    
+    <div class="frase">
+        <label id="frase3">Cargando Frase...</label>
+    </div>
+
+</div>
+
+    <script src="js/style.js"></script>
     <script src="js/img.js"></script>
     <script src="js/frase.js"></script>
     <script src="js/google.js"></script>
@@ -43,5 +139,6 @@
     <script>
         mostrarFraseAleatoria();
     </script>
+    </div>
 </body>
 </html>

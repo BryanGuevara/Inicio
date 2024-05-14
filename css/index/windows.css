@@ -1,0 +1,61 @@
+.barra-inferior {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 90%; 
+    max-width: 800px; 
+    margin: 0 auto; 
+    background-color: #0000008a; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px 10px; 
+}
+
+.barra-inferior .button {
+    text-align: center;
+    display: inline-block;
+    margin: 0 10px;
+    margin: 0 5px;
+}
+
+
+.barra-inferior .button-img {
+    width: 50px;
+    height: auto;
+}
+
+.buscador {
+    margin: 0;
+}
+
+.buscador input[type="text"] {
+    width: 150px; 
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.frase {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #3d3d3d4d;
+    color: #fff;
+    font-size: 24px; 
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.css1,
+.css2{
+    display: none;
+}

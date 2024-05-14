@@ -9,16 +9,6 @@
     height: 40px;
 }
 
-body {
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: #f0f0f0;
-    background-image: url('../img/fondo/loading.png');
-}
-
-
 .container {
     max-width: 800px;
     margin: 0 auto;
@@ -50,6 +40,7 @@ p {
     width: 30%;
     margin: 0 1%;
 }
+
 .busquedaInput {
     width: 80%;
     padding: 10px; 
@@ -108,4 +99,11 @@ p {
     display: flex;
     justify-content: center;
     margin-top: 15px;
+}
+
+.css2{
+    display: none;
+}
+.css3{
+    display: none;
 }
