@@ -43,6 +43,10 @@ Este proyecto fue realizado por **[BryanGuevara](https://github.com/BryanGuevara
     - [Fondos](img/fondos/) personalizado
         - Sistema Randomizador para poner una imagen cada que se carga la pagina
         - por el momento tiene mis 20 fondos de la pagina de bloqueo, pero para la version final tendra muchos y variados
+    - Posibilidad de elegir el estilo del fondo
+        - Default
+        - Windows
+        - Cute
 ---
 
 ### Imagenes y video de como implementar
