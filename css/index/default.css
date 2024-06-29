@@ -101,9 +101,8 @@ p {
     margin-top: 15px;
 }
 
-.css2{
-    display: none;
-}
-.css3{
+.css2,
+.css3,
+.css4{
     display: none;
 }

@@ -10,8 +10,7 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        background-color: #f0f0f0;
-        background-image: url('../../img/fondo/loading.png');
+        background-color: #7a7a7af6;
     }</style>
 </head>
 <body id="body">
@@ -126,15 +125,43 @@
   </div>
     
     <div class="frase">
-        <label id="frase3">Cargando Frase...</label>
+        <label id="frase3">...</label>
     </div>
 
 </div>
 
-    <script src="js/style.js"></script>
-    <script src="js/img.js"></script>
+<div class="css4">
+    <div class="container">
+        <h1>¿Qué deseas hacer ahora?</h1>
+        <form id="googleForm4">
+            <input type="text" name="query" placeholder="Buscar en Google" class="busquedaInput">
+        </form>
+        
+        <form id="youtubeForm4">
+            <input type="text" name="query" placeholder="Buscar en YouTube" class="busquedaInput">
+        </form>
+
+        <div class="frase">
+            <label id="frase4">Explorando en el JSON...</label>
+          </div>
+          <br><br><br>
+            <a href="html/Jugar.html" class="button" id="jugar"><img src="img/iconos/Control.png" alt="Jugar" class="button-img"><p>Jugar</p></a>
+            <a href="html/Navegar.html" class="button" id="navegar"><img src="img/iconos/Navegar.png" alt="Navegar" class="button-img"><p>Navegar</p></a>
+            <a href="html/IA.html" class="button" id="hablar"><img src="img/iconos/AI.png" alt="Hablar con una IA" class="button-img"><p>Hablar con una IA</p></a>
+
+            
+            <a href="html/Otro.html" class="button" id="jugar"><img src="img/iconos/Otros.png" alt="Jugar" class="button-img"><p>Otras Cosas</p></a>
+            <a href="html/Config.html" class="button" id="jugar"><img src="img/iconos/Ajustes.png" alt="Jugar" class="button-img"><p>Ajustes</p></a>
+       
+            <a href="html/Readme.html" class="button otros" id="otros"><p>README.md</p></a>
+            <a href="html/Redes.html" class="button otros" id="otros"><p>Redes</p></a>
+       
+</div>
+
     <script src="js/frase.js"></script>
     <script src="js/google.js"></script>
+    <script src="js/img.js"></script>
+    <script src="js/style.js"></script>
     <script src="js/youtube.js"></script>
     <script>
         mostrarFraseAleatoria();

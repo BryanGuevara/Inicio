@@ -53,3 +53,9 @@ option[value="windows"] {
     background-color: #007bff;
     color: #fff;
 }
+
+option[value="modernclean"] {
+    background-color: #00ff4c;
+    color: #fff;
+}
+

@@ -13,6 +13,9 @@ document.addEventListener('DOMContentLoaded', function() {
         case 'windows':
             body.style.backgroundImage = "url('" + imagePath + "windows.jpg')";
             break;
+            case 'modernclean':
+                body.style.backgroundImage = "url('" + imagePath + "modernclean.jpg')";
+                break;
         default:
             body.style.backgroundImage = "none";
     }
@@ -32,6 +35,9 @@ document.getElementById('styleSelect').addEventListener('change', function() {
             break;
         case 'windows':
             body.style.backgroundImage = "url('" + imagePath + "windows.jpg')";
+            break;
+        case 'modernclean':
+            body.style.backgroundImage = "url('" + imagePath + "modernclean.jpg')";
             break;
         default:
             body.style.backgroundImage = "none";
