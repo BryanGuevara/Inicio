@@ -1,0 +1,255 @@
+{
+  "Online": [
+    {
+      "enlace": "https://www.chess.com/home",
+      "img": "../img/paginas/chess.com.png",
+      "title": "Chess.com",
+      "tipos": [
+        {
+          "tipo": "Estrategia",
+          "color": "rojo"
+        },
+        {
+          "tipo": "Juego de Mesa",
+          "color": "verde"
+        }
+      ]
+    },
+    {
+      "enlace": "https://gamesfrog.com",
+      "img": "../img/paginas/gamesfrog.png",
+      "title": "Gamesfrog",
+      "tipos": [
+        {
+          "tipo": "Emulador",
+          "color": "titanio"
+        }
+      ]
+    },
+    {
+      "enlace": "https://poki.com/es",
+      "img": "../img/paginas/poki.png",
+      "title": "Poki",
+      "tipos": [
+        {
+          "tipo": "Emulador",
+          "color": "titanio"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.juegotk.com/",
+      "img": "../img/paginas/juegotk.png",
+      "title": "JuegoTk",
+      "tipos": [
+        {
+          "tipo": "Emulador",
+          "color": "titanio"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.friv.com/?play-juegos",
+      "img": "../img/paginas/juegosfriv.png",
+      "title": "Friv.com",
+      "tipos": [
+        {
+          "tipo": "Emulador",
+          "color": "titanio"
+        }
+      ]
+    }
+  ],
+  "Offline": [
+    {
+      "enlace": "../pages/3EnRaya/index.html",
+      "img": "../pages/3EnRaya/Img/Ico.png",
+      "title": "3 en Raya",
+      "tipos": [
+        {
+          "tipo": "2 Jugadores",
+          "color": "amarillo"
+        },
+        {
+          "tipo": "Estrategia",
+          "color": "rojo"
+        }
+      ]
+    },
+    {
+      "enlace": "../pages/buscaminas/index.html",
+      "img": "../pages/buscaminas/img/ico.png",
+      "title": "Buscaminas",
+      "tipos": [
+        {
+          "tipo": "1 Jugador",
+          "color": "amarillo"
+        },
+        {
+          "tipo": "Estrategia",
+          "color": "rojo"
+        }
+      ]
+    },
+    {
+      "enlace": "../pages/Snake/index.html",
+      "img": "../pages/snake/img/ico.png",
+      "title": "Snake",
+      "tipos": [
+        {
+          "tipo": "1 Jugador",
+          "color": "amarillo"
+        },
+        {
+          "tipo": "Estrategia",
+          "color": "rojo"
+        }
+      ]
+    }
+  ],
+  "Descargar": [
+    {
+      "enlace": "https://carlosxdjavgames.altervista.org/archivos/134",
+      "img": "../img/paginas/sm4j.png",
+      "title": "Super Mario 4 Jugadores",
+      "tipos": [
+        {
+          "tipo": "Aventura",
+          "color": "morado"
+        },
+        {
+          "tipo": "Arcade",
+          "color": "GB"
+        }
+      ]
+    },
+    {
+      "enlace": "https://pokemonrevolution.net/home",
+      "img": "../img/paginas/pro.png",
+      "title": "Pokemon Revolution Online",
+      "tipos": [
+        {
+          "tipo": "Arcade",
+          "color": "GB"
+        },
+        {
+          "tipo": "Aventura",
+          "color": "morado"
+        },
+        {
+          "tipo": "Estrategia",
+          "color": "rojo"
+        }
+      ]
+    },
+    {
+      "enlace": "https://tlauncher.org/en/",
+      "img": "../img/paginas/tlauncher.png",
+      "title": "TLauncher",
+      "tipos": [
+        {
+          "tipo": "Aventura",
+          "color": "morado"
+        }
+      ]
+    },
+    {
+      "enlace": "https://store.steampowered.com/",
+      "img": "../img/paginas/albion.png",
+      "title": "Albion Online",
+      "tipos": [
+        {
+          "tipo": "Aventura",
+          "color": "morado"
+        },
+        {
+          "tipo": "RPG",
+          "color": "blanco"
+        },
+        {
+          "tipo": "Estrategia",
+          "color": "rojo"
+        }
+      ]
+    },
+    {
+      "enlace": "https://store.steampowered.com/",
+      "img": "../img/paginas/steam.png",
+      "title": "Steam",
+      "tipos": [
+        {
+          "tipo": "Tienda",
+          "color": "azul-medianoche"
+        }
+      ]
+    },
+    {
+      "enlace": "https://store.epicgames.com/",
+      "img": "../img/paginas/epicgames.png",
+      "title": "Epic Games Store",
+      "tipos": [
+        {
+          "tipo": "Tienda",
+          "color": "azul-medianoche"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.uptodown.com/android/juegos",
+      "img": "../img/paginas/updown.png",
+      "title": "Updown",
+      "tipos": [
+        {
+          "tipo": "Tienda",
+          "color": "azul-medianoche"
+        }
+      ]
+    }
+  ],
+  "Roms": [
+    {
+      "enlace": "https://romsespanol.com/",
+      "img": "../img/paginas/romsenespañol.png",
+      "title": "Roms Nintendo en Español",
+      "tipos": [
+        {
+          "tipo": "Emulador",
+          "color": "titanio"
+        }
+      ]
+    },
+    {
+      "enlace": "https://wowroms.com/es/",
+      "img": "../img/paginas/wowroms.png",
+      "title": "WOWroms",
+      "tipos": [
+        {
+          "tipo": "Emulador",
+          "color": "titanio"
+        }
+      ]
+    },
+    {
+      "enlace": "https://romsmania.net/",
+      "img": "../img/paginas/romsmania.png",
+      "title": "RomsMania",
+      "tipos": [
+        {
+          "tipo": "Emulador",
+          "color": "titanio"
+        }
+      ]
+    },
+    {
+      "enlace": "https://packroms.por-mega.com/",
+      "img": "../img/paginas/packroms.png",
+      "title": "Packroms",
+      "tipos": [
+        {
+          "tipo": "Emulador",
+          "color": "titanio"
+        }
+      ]
+    }
+  ]
+}
