@@ -1,12 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
-    fetch('../json/jugar.json')
+    fetch('../json/ia.json')
         .then(response => response.json())
         .then(data => {
-            
-            const onlineContainer = document.getElementById('Online');
-            const offlineContainer = document.getElementById('Offline'); 
-            const descargarContainer = document.getElementById('Descargar');
-            const romsContainer = document.getElementById('Roms');
+            const iaContainer = document.getElementById('IA');
 
             function createGameCard(item) {
                 const card = document.createElement('a');
@@ -42,24 +38,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 return card;
             }
 
-            data.Online.forEach(item => {
+            data.IA.forEach(item => {
                 const card = createGameCard(item);
-                onlineContainer.appendChild(card);
-            });
-
-            data.Offline.forEach(item => {
-                const card = createGameCard(item);
-                offlineContainer.appendChild(card);
-            });
-
-            data.Descargar.forEach(item => {
-                const card = createGameCard(item);
-                descargarContainer.appendChild(card);
-            });
-
-            data.Roms.forEach(item => {
-                const card = createGameCard(item);
-                romsContainer.appendChild(card);
+                iaContainer.appendChild(card);
             });
         })
         .catch(error => console.error('Error al cargar el archivo JSON:', error));

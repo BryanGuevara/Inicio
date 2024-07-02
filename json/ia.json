@@ -1,0 +1,83 @@
+{
+    "IA": [
+      {
+        "enlace": "https://chat.openai.com/",
+        "img": "../img/paginas/chatgpt.png",
+        "title": "ChatGPT",
+        "tipos": [
+          {
+            "tipo": "Chat",
+            "color": "azul"
+          },
+          {
+            "tipo": "Codigo",
+            "color": "verde"
+          }
+        ]
+      },
+      {
+        "enlace": "https://gemini.google.com/app",
+        "img": "../img/paginas/gemini.png",
+        "title": "Gemini",
+        "tipos": [
+          {
+            "tipo": "Chat",
+            "color": "azul"
+          },
+          {
+            "tipo": "Imagenes",
+            "color": "morado"
+          }
+        ]
+      },
+      {
+        "enlace": "https://www.flux.ai/",
+        "img": "../img/paginas/flux.png",
+        "title": "flux",
+        "tipos": [
+          {
+            "tipo": "Arduino",
+            "color": "titanio"
+          }
+        ]
+      },
+      {
+        "enlace": "https://kodezi/",
+        "img": "../img/paginas/kodezi.png",
+        "title": "kodezi",
+        "tipos": [
+          {
+            "tipo": "Chat",
+            "color": "azul"
+          },
+          {
+            "tipo": "Codigo",
+            "color": "verde"
+          }
+        ]
+      },
+      {
+        "enlace": "https://app.leonardo.ai/",
+        "img": "../img/paginas/leonardo.png",
+        "title": "Leonardo.Ai",
+        "tipos": [
+          {
+            "tipo": "Imagenes",
+            "color": "morado"
+          }
+        ]
+      },
+      {
+        "enlace": "https://app.aizzy.ai/",
+        "img": "../img/paginas/aizzy.png",
+        "title": "Aizzy",
+        "tipos": [
+          {
+            "tipo": "asistentes",
+            "color": "celeste"
+          }
+        ]
+      }
+    ]
+  }
+  

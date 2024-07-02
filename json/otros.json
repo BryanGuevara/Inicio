@@ -1,0 +1,142 @@
+{
+    "Paginas": [
+      {
+        "enlace": "https://recursivearts.com/",
+        "img": "../img/paginas/recursivearts.png",
+        "title": "RecursiveArts",
+        "tipos": [
+          {
+            "tipo": "Música",
+            "color": "amarillo"
+          }
+        ]
+      },
+      {
+        "enlace": "https://app.diagrams.net/",
+        "img": "../img/paginas/diagrams.png",
+        "title": "Diagrams.net",
+        "tipos": [
+          {
+            "tipo": "Diagramas",
+            "color": "morado"
+          },
+          {
+            "tipo": "Tareas",
+            "color": "verde"
+          }
+        ]
+      },
+      {
+        "enlace": "https://brainly.lat/",
+        "img": "../img/paginas/brainly.png",
+        "title": "Brainly",
+        "tipos": [
+          {
+            "tipo": "preguntas",
+            "color": "azul"
+          },
+          {
+            "tipo": "Tareas",
+            "color": "verde"
+          }
+        ]
+      },
+      {
+        "enlace": "https://origamiusa.org/",
+        "img": "../img/paginas/origamiusa.png",
+        "title": "Origamiusa",
+        "tipos": [
+          {
+            "tipo": "Origami",
+            "color": "oro"
+          },
+          {
+            "tipo": "Exibiciones",
+            "color": "celeste"
+          }
+        ]
+      },
+      {
+        "enlace": "https://www3.animeflv.net/",
+        "img": "../img/paginas/animeflv.png",
+        "title": "Animeflv",
+        "tipos": [
+          {
+            "tipo": "Series",
+            "color": "plata"
+          },
+          {
+            "tipo": "Anime",
+            "color": "lavanda-oscuro"
+          }
+        ]
+      },
+      {
+        "enlace": "https://minecraft.tools/es/",
+        "img": "../img/paginas/minecrafttools.png",
+        "title": "Minecraft Tools",
+        "tipos": [
+          {
+            "tipo": "Generador",
+            "color": "burlywood"
+          },
+          {
+            "tipo": "Juego",
+            "color": "GB"
+          }
+        ]
+      },
+      {
+        "enlace": "https://open.spotify.com/intl-es",
+        "img": "../img/paginas/spotify.png",
+        "title": "Spotify",
+        "tipos": [
+          {
+            "tipo": "Música",
+            "color": "amarillo"
+          }
+        ]
+      },
+      {
+        "enlace": "https://www.w3schools.com/",
+        "img": "../img/paginas/w3scools.png",
+        "title": "W3scools",
+        "tipos": [
+          {
+            "tipo": "Tarea",
+            "color": "verde"
+          }
+        ]
+      },
+      {
+        "enlace": "https://conversordeletras.net/",
+        "img": "../img/paginas/conversordeletras.png",
+        "title": "Conversor de Letras",
+        "tipos": [
+          {
+            "tipo": "Generador",
+            "color": "burlywood"
+          }
+        ]
+      }
+    ],
+    "Sugerencia": [
+      {
+        "enlace": "https://forms.gle/TeF3WAXPgg9eS7F57",
+        "img": "../img/paginas/forms.png",
+        "title": "Mas Paginas",
+        "sugerencia": "Acá los envía a un formulario, para que sugieran páginas a añadir",
+        "tipos": [
+          {
+            "tipo": "Google",
+            "color": "google"
+          },
+          {
+            "tipo": "Formulario",
+            "color": "morado"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,14 +1,10 @@
 document.addEventListener("DOMContentLoaded", function() {
-    fetch('../json/jugar.json')
+    fetch('../json/navegar.json')
         .then(response => response.json())
         .then(data => {
-            
-            const onlineContainer = document.getElementById('Online');
-            const offlineContainer = document.getElementById('Offline'); 
-            const descargarContainer = document.getElementById('Descargar');
-            const romsContainer = document.getElementById('Roms');
+            const paginasContainer = document.getElementById('paginas');
 
-            function createGameCard(item) {
+            function createPageCard(item) {
                 const card = document.createElement('a');
                 card.href = item.enlace;
                 card.className = 'web-card';
@@ -42,24 +38,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 return card;
             }
 
-            data.Online.forEach(item => {
-                const card = createGameCard(item);
-                onlineContainer.appendChild(card);
-            });
-
-            data.Offline.forEach(item => {
-                const card = createGameCard(item);
-                offlineContainer.appendChild(card);
-            });
-
-            data.Descargar.forEach(item => {
-                const card = createGameCard(item);
-                descargarContainer.appendChild(card);
-            });
-
-            data.Roms.forEach(item => {
-                const card = createGameCard(item);
-                romsContainer.appendChild(card);
+            data.Paginas.forEach(item => {
+                const card = createPageCard(item);
+                paginasContainer.appendChild(card);
             });
         })
         .catch(error => console.error('Error al cargar el archivo JSON:', error));

@@ -195,13 +195,28 @@
       ]
     },
     {
-      "enlace": "https://www.uptodown.com/android/juegos",
+      "enlace": "https://www.uptodown.com/windows/juegos",
       "img": "../img/paginas/updown.png",
       "title": "Updown",
       "tipos": [
         {
           "tipo": "Tienda",
           "color": "azul-medianoche"
+        }
+      ]
+    },
+    {
+      "enlace": "https://play.google.com/store/games?hl=es",
+      "img": "../img/paginas/googleplay.png",
+      "title": "Google Play",
+      "tipos": [
+        {
+          "tipo": "Tienda",
+          "color": "azul-medianoche"
+        },
+        {
+          "tipo": "Google",
+          "color": "google"
         }
       ]
     }
