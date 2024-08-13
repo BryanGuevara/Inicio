@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 cardImg.className = 'card-img';
                 const img = document.createElement('img');
                 img.src = item.img;
-                img.alt = 'Vista previa de la página web';
+                img.alt = 'Necesita conexion a internet';
                 cardImg.appendChild(img);
 
                 const cardInfo = document.createElement('div');

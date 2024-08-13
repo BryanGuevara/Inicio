@@ -2,7 +2,7 @@
   "Online": [
     {
       "enlace": "https://www.chess.com/home",
-      "img": "../img/paginas/chess.com.png",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/chess.com.png",
       "title": "Chess.com",
       "tipos": [
         {
@@ -17,7 +17,7 @@
     },
     {
       "enlace": "https://gamesfrog.com",
-      "img": "../img/paginas/gamesfrog.png",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/gamesfrog.png",
       "title": "Gamesfrog",
       "tipos": [
         {
@@ -28,7 +28,7 @@
     },
     {
       "enlace": "https://poki.com/es",
-      "img": "../img/paginas/poki.png",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/poki.png",
       "title": "Poki",
       "tipos": [
         {
@@ -39,7 +39,7 @@
     },
     {
       "enlace": "https://www.juegotk.com/",
-      "img": "../img/paginas/juegotk.png",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/juegotk.png",
       "title": "JuegoTk",
       "tipos": [
         {
@@ -50,12 +50,75 @@
     },
     {
       "enlace": "https://www.friv.com/?play-juegos",
-      "img": "../img/paginas/juegosfriv.png",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/juegosfriv.png",
       "title": "Friv.com",
       "tipos": [
         {
           "tipo": "Emulador",
           "color": "titanio"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.miniclip.com/games/en/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/miniclip.png",
+      "title": "Miniclip",
+      "tipos": [
+        {
+          "tipo": "Casual",
+          "color": "celeste"
+        },
+        {
+          "tipo": "Multijugador",
+          "color": "verde"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.agame.com/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/agame.png",
+      "title": "Agame",
+      "tipos": [
+        {
+          "tipo": "Casual",
+          "color": "celeste"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.addictinggames.com/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/addictinggames.png",
+      "title": "Addicting Games",
+      "tipos": [
+        {
+          "tipo": "Casual",
+          "color": "celeste"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.kongregate.com/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/kongregate.png",
+      "title": "Kongregate",
+      "tipos": [
+        {
+          "tipo": "Casual",
+          "color": "celeste"
+        },
+        {
+          "tipo": "Multijugador",
+          "color": "verde"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.nitrome.com/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/nitrome.png",
+      "title": "Nitrome",
+      "tipos": [
+        {
+          "tipo": "Casual",
+          "color": "celeste"
         }
       ]
     }
@@ -105,12 +168,27 @@
           "color": "rojo"
         }
       ]
+    },
+    {
+      "enlace": "../pages/Numero/index.html",
+      "img": "../pages/Numero/img/ico.png",
+      "title": "Adivina el Numero",
+      "tipos": [
+        {
+          "tipo": "1 Jugador",
+          "color": "amarillo"
+        },
+        {
+          "tipo": "Matematicas",
+          "color": "GB"
+        }
+      ]
     }
   ],
   "Descargar": [
     {
       "enlace": "https://carlosxdjavgames.altervista.org/archivos/134",
-      "img": "../img/paginas/sm4j.png",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/sm4j.png",
       "title": "Super Mario 4 Jugadores",
       "tipos": [
         {
@@ -125,7 +203,7 @@
     },
     {
       "enlace": "https://pokemonrevolution.net/home",
-      "img": "../img/paginas/pro.png",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/pro.png",
       "title": "Pokemon Revolution Online",
       "tipos": [
         {
@@ -144,7 +222,7 @@
     },
     {
       "enlace": "https://tlauncher.org/en/",
-      "img": "../img/paginas/tlauncher.png",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/tlauncher.png",
       "title": "TLauncher",
       "tipos": [
         {
@@ -155,7 +233,7 @@
     },
     {
       "enlace": "https://store.steampowered.com/",
-      "img": "../img/paginas/albion.png",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/albion.png",
       "title": "Albion Online",
       "tipos": [
         {
@@ -174,7 +252,7 @@
     },
     {
       "enlace": "https://store.steampowered.com/",
-      "img": "../img/paginas/steam.png",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/steam.png",
       "title": "Steam",
       "tipos": [
         {
@@ -185,7 +263,7 @@
     },
     {
       "enlace": "https://store.epicgames.com/",
-      "img": "../img/paginas/epicgames.png",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/epicgames.png",
       "title": "Epic Games Store",
       "tipos": [
         {
@@ -196,7 +274,7 @@
     },
     {
       "enlace": "https://www.uptodown.com/windows/juegos",
-      "img": "../img/paginas/updown.png",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/updown.png",
       "title": "Updown",
       "tipos": [
         {
@@ -207,7 +285,7 @@
     },
     {
       "enlace": "https://play.google.com/store/games?hl=es",
-      "img": "../img/paginas/googleplay.png",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/googleplay.png",
       "title": "Google Play",
       "tipos": [
         {
@@ -219,12 +297,34 @@
           "color": "google"
         }
       ]
+    },
+    {
+      "enlace": "https://www.gog.com/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/gog.png",
+      "title": "GOG",
+      "tipos": [
+        {
+          "tipo": "Tienda",
+          "color": "azul-medianoche"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.humblebundle.com/store",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/humblebundle.png",
+      "title": "Humble Bundle",
+      "tipos": [
+        {
+          "tipo": "Tienda",
+          "color": "azul-medianoche"
+        }
+      ]
     }
   ],
   "Roms": [
     {
       "enlace": "https://romsespanol.com/",
-      "img": "../img/paginas/romsenespañol.png",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/romsenespañol.png",
       "title": "Roms Nintendo en Español",
       "tipos": [
         {
@@ -235,7 +335,7 @@
     },
     {
       "enlace": "https://wowroms.com/es/",
-      "img": "../img/paginas/wowroms.png",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/wowroms.png",
       "title": "WOWroms",
       "tipos": [
         {
@@ -246,7 +346,7 @@
     },
     {
       "enlace": "https://romsmania.net/",
-      "img": "../img/paginas/romsmania.png",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/romsmania.png",
       "title": "RomsMania",
       "tipos": [
         {
@@ -257,8 +357,74 @@
     },
     {
       "enlace": "https://packroms.por-mega.com/",
-      "img": "../img/paginas/packroms.png",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/packroms.png",
       "title": "Packroms",
+      "tipos": [
+        {
+          "tipo": "Emulador",
+          "color": "titanio"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.coolrom.com/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/coolrom.png",
+      "title": "CoolROM",
+      "tipos": [
+        {
+          "tipo": "Emulador",
+          "color": "titanio"
+        }
+      ]
+    },
+    {
+      "enlace": "https://romsdownload.net/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/romsdownload.png",
+      "title": "RomsDownload",
+      "tipos": [
+        {
+          "tipo": "Emulador",
+          "color": "titanio"
+        }
+      ]
+    },
+    {
+      "enlace": "https://emulatorgames.net/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/emulatorgames.png",
+      "title": "EmulatorGames",
+      "tipos": [
+        {
+          "tipo": "Emulador",
+          "color": "titanio"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.retrogames.cc/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/retrogames.png",
+      "title": "RetroGames",
+      "tipos": [
+        {
+          "tipo": "Emulador",
+          "color": "titanio"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.vimm.net/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/vimm.png",
+      "title": "Vimm's Lair",
+      "tipos": [
+        {
+          "tipo": "Emulador",
+          "color": "titanio"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.doperoms.com/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/doperoms.png",
+      "title": "Doperoms",
       "tipos": [
         {
           "tipo": "Emulador",

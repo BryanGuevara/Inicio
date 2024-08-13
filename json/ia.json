@@ -1,83 +1,174 @@
 {
-    "IA": [
-      {
-        "enlace": "https://chat.openai.com/",
-        "img": "../img/paginas/chatgpt.png",
-        "title": "ChatGPT",
-        "tipos": [
-          {
-            "tipo": "Chat",
-            "color": "azul"
-          },
-          {
-            "tipo": "Codigo",
-            "color": "verde"
-          }
-        ]
-      },
-      {
-        "enlace": "https://gemini.google.com/app",
-        "img": "../img/paginas/gemini.png",
-        "title": "Gemini",
-        "tipos": [
-          {
-            "tipo": "Chat",
-            "color": "azul"
-          },
-          {
-            "tipo": "Imagenes",
-            "color": "morado"
-          }
-        ]
-      },
-      {
-        "enlace": "https://www.flux.ai/",
-        "img": "../img/paginas/flux.png",
-        "title": "flux",
-        "tipos": [
-          {
-            "tipo": "Arduino",
-            "color": "titanio"
-          }
-        ]
-      },
-      {
-        "enlace": "https://kodezi/",
-        "img": "../img/paginas/kodezi.png",
-        "title": "kodezi",
-        "tipos": [
-          {
-            "tipo": "Chat",
-            "color": "azul"
-          },
-          {
-            "tipo": "Codigo",
-            "color": "verde"
-          }
-        ]
-      },
-      {
-        "enlace": "https://app.leonardo.ai/",
-        "img": "../img/paginas/leonardo.png",
-        "title": "Leonardo.Ai",
-        "tipos": [
-          {
-            "tipo": "Imagenes",
-            "color": "morado"
-          }
-        ]
-      },
-      {
-        "enlace": "https://app.aizzy.ai/",
-        "img": "../img/paginas/aizzy.png",
-        "title": "Aizzy",
-        "tipos": [
-          {
-            "tipo": "asistentes",
-            "color": "celeste"
-          }
-        ]
-      }
-    ]
-  }
-  
+  "IA": [
+    {
+      "enlace": "https://chat.openai.com/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/chatgpt.png",
+      "title": "ChatGPT",
+      "tipos": [
+        {
+          "tipo": "Chat",
+          "color": "azul"
+        },
+        {
+          "tipo": "Codigo",
+          "color": "verde"
+        }
+      ]
+    },
+    {
+      "enlace": "https://gemini.google.com/app",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/gemini.png",
+      "title": "Gemini",
+      "tipos": [
+        {
+          "tipo": "Chat",
+          "color": "azul"
+        },
+        {
+          "tipo": "Imagenes",
+          "color": "morado"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.flux.ai/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/flux.png",
+      "title": "Flux",
+      "tipos": [
+        {
+          "tipo": "Arduino",
+          "color": "titanio"
+        }
+      ]
+    },
+    {
+      "enlace": "https://kodezi/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/kodezi.png",
+      "title": "Kodezi",
+      "tipos": [
+        {
+          "tipo": "Chat",
+          "color": "azul"
+        },
+        {
+          "tipo": "Codigo",
+          "color": "verde"
+        }
+      ]
+    },
+    {
+      "enlace": "https://app.leonardo.ai/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/leonardo.png",
+      "title": "Leonardo.AI",
+      "tipos": [
+        {
+          "tipo": "Imagenes",
+          "color": "morado"
+        }
+      ]
+    },
+    {
+      "enlace": "https://app.aizzy.ai/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/aizzy.png",
+      "title": "Aizzy",
+      "tipos": [
+        {
+          "tipo": "Asistentes",
+          "color": "celeste"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.jasper.ai/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/jasper.png",
+      "title": "Jasper",
+      "tipos": [
+        {
+          "tipo": "Redacción",
+          "color": "amarillo"
+        },
+        {
+          "tipo": "Chat",
+          "color": "azul"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.copy.ai/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/copyai.png",
+      "title": "Copy.ai",
+      "tipos": [
+        {
+          "tipo": "Redacción",
+          "color": "amarillo"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.rytr.me/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/rytr.png",
+      "title": "Rytr",
+      "tipos": [
+        {
+          "tipo": "Redacción",
+          "color": "amarillo"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.scribehow.com/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/scribe.png",
+      "title": "Scribe",
+      "tipos": [
+        {
+          "tipo": "Documentación",
+          "color": "verde-claro"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.superhuman.com/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/superhuman.png",
+      "title": "Superhuman",
+      "tipos": [
+        {
+          "tipo": "Correo",
+          "color": "azul-acero"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.tome.app/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/tome.png",
+      "title": "Tome",
+      "tipos": [
+        {
+          "tipo": "Presentaciones",
+          "color": "morado"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.copySmith.ai/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/copysmith.png",
+      "title": "CopySmith",
+      "tipos": [
+        {
+          "tipo": "Redacción",
+          "color": "amarillo"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.vidnoz.com/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/vidnoz.png",
+      "title": "Vidnoz",
+      "tipos": [
+        {
+          "tipo": "Video",
+          "color": "cyan"
+        }
+      ]
+    }
+  ]
+}

@@ -1,126 +1,191 @@
 {
-    "Paginas": [
-      {
-        "enlace": "https://google.com",
-        "img": "../img/paginas/google.png",
-        "title": "Google",
-        "tipos": [
-          {
-            "tipo": "Google",
-            "color": "google"
-          }
-        ]
-      },
-      {
-        "enlace": "https://www.wikipedia.org",
-        "img": "../img/paginas/wikipedia.png",
-        "title": "Wikipedia",
-        "tipos": [
-          {
-            "tipo": "Tareas",
-            "color": "morado"
-          }
-        ]
-      },
-      {
-        "enlace": "https://www.bing.com/",
-        "img": "../img/paginas/bing.png",
-        "title": "bing",
-        "tipos": [
-          {
-            "tipo": "Microsoft",
-            "color": "microsoft"
-          }
-        ]
-      },
-      {
-        "enlace": "https://www.yahoo.com/",
-        "img": "../img/paginas/yahoo.png",
-        "title": "Yahoo",
-        "tipos": [
-          {
-            "tipo": "Alternativo",
-            "color": "blanco"
-          }
-        ]
-      },
-      {
-        "enlace": "https://duckduckgo.com/",
-        "img": "../img/paginas/duckduckgo.png",
-        "title": "DuckDuckGo",
-        "tipos": [
-          {
-            "tipo": "Privacidad",
-            "color": "gris"
-          }
-        ]
-      },
-      {
-        "enlace": "https://www.startpage.com/",
-        "img": "../img/paginas/startpage.png",
-        "title": "Startpage",
-        "tipos": [
-          {
-            "tipo": "Privacidad",
-            "color": "gris"
-          }
-        ]
-      },
-      {
-        "enlace": "https://www.ecosia.org/",
-        "img": "../img/paginas/ecosia.png",
-        "title": "Ecosia",
-        "tipos": [
-          {
-            "tipo": "Ecologico",
-            "color": "verde"
-          }
-        ]
-      },
-      {
-        "enlace": "https://www.youtube.com/",
-        "img": "../img/paginas/youtube.png",
-        "title": "youtube",
-        "tipos": [
-          {
-            "tipo": "Google",
-            "color": "google"
-          }
-        ]
-      },
-      {
-        "enlace": "https://www.swisscows.com/",
-        "img": "../img/paginas/swisscows.png",
-        "title": "Swisscows",
-        "tipos": [
-          {
-            "tipo": "Privacidad",
-            "color": "gris"
-          }
-        ]
-      },
-      {
-        "enlace": "https://www.qwant.com/",
-        "img": "../img/paginas/qwant.png",
-        "title": "Qwant",
-        "tipos": [
-          {
-            "tipo": "Alternativo",
-            "color": "blanco"
-          }
-        ]
-      },
-      {
-        "enlace": "https://www.yandex.com/",
-        "img": "../img/paginas/yandex.png",
-        "title": "Yandex",
-        "tipos": [
-          {
-            "tipo": "Ruso",
-            "color": "rojo"
-          }
-        ]
-      }
-    ]
-  }
-  
+  "Paginas": [
+    {
+      "enlace": "https://google.com",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/google.png",
+      "title": "Google",
+      "tipos": [
+        {
+          "tipo": "Google",
+          "color": "google"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.wikipedia.org",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/wikipedia.png",
+      "title": "Wikipedia",
+      "tipos": [
+        {
+          "tipo": "Tareas",
+          "color": "morado"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.bing.com/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/bing.png",
+      "title": "Bing",
+      "tipos": [
+        {
+          "tipo": "Microsoft",
+          "color": "microsoft"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.yahoo.com/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/yahoo.png",
+      "title": "Yahoo",
+      "tipos": [
+        {
+          "tipo": "Alternativo",
+          "color": "blanco"
+        }
+      ]
+    },
+    {
+      "enlace": "https://duckduckgo.com/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/duckduckgo.png",
+      "title": "DuckDuckGo",
+      "tipos": [
+        {
+          "tipo": "Privacidad",
+          "color": "gris"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.startpage.com/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/startpage.png",
+      "title": "Startpage",
+      "tipos": [
+        {
+          "tipo": "Privacidad",
+          "color": "gris"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.ecosia.org/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/ecosia.png",
+      "title": "Ecosia",
+      "tipos": [
+        {
+          "tipo": "Ecológico",
+          "color": "verde"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.youtube.com/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/youtube.png",
+      "title": "YouTube",
+      "tipos": [
+        {
+          "tipo": "Google",
+          "color": "google"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.swisscows.com/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/swisscows.png",
+      "title": "Swisscows",
+      "tipos": [
+        {
+          "tipo": "Privacidad",
+          "color": "gris"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.qwant.com/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/qwant.png",
+      "title": "Qwant",
+      "tipos": [
+        {
+          "tipo": "Alternativo",
+          "color": "blanco"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.yandex.com/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/yandex.png",
+      "title": "Yandex",
+      "tipos": [
+        {
+          "tipo": "Ruso",
+          "color": "rojo"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.reddit.com/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/reddit.png",
+      "title": "Reddit",
+      "tipos": [
+        {
+          "tipo": "Comunidades",
+          "color": "naranja"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.medium.com/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/medium.png",
+      "title": "Medium",
+      "tipos": [
+        {
+          "tipo": "Blog",
+          "color": "gris"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.quora.com/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/quora.png",
+      "title": "Quora",
+      "tipos": [
+        {
+          "tipo": "Preguntas y Respuestas",
+          "color": "rojo"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.news.google.com/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/newsgoogle.png",
+      "title": "Google News",
+      "tipos": [
+        {
+          "tipo": "Noticias",
+          "color": "google"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.bbc.com/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/bbc.png",
+      "title": "BBC",
+      "tipos": [
+        {
+          "tipo": "Noticias",
+          "color": "azul"
+        }
+      ]
+    },
+    {
+      "enlace": "https://www.cnn.com/",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/cnn.png",
+      "title": "CNN",
+      "tipos": [
+        {
+          "tipo": "Noticias",
+          "color": "rojo"
+        }
+      ]
+    }
+  ]
+}

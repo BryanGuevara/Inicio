@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Adivinar el Número</title>
+    <link rel="icon" type="image/png" href="img/ico.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Juego de Adivinar el Número</h1>
+        <p id="message">Estoy pensando en un número entre 1 y 100...</p>
+        <div class="input-group">
+            <input type="number" id="guess" placeholder="Número" aria-label="Introduce tu número">
+            <button onclick="checkGuess()">Enviar</button>
+        </div>
+        <p id="feedback" class="feedback"></p>
+        <p id="attempts" class="attempts"></p>
+        <p id="time" class="time"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

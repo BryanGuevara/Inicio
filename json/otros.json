@@ -2,7 +2,7 @@
     "Paginas": [
       {
         "enlace": "https://recursivearts.com/",
-        "img": "../img/paginas/recursivearts.png",
+        "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/recursivearts.png",
         "title": "RecursiveArts",
         "tipos": [
           {
@@ -13,7 +13,7 @@
       },
       {
         "enlace": "https://app.diagrams.net/",
-        "img": "../img/paginas/diagrams.png",
+        "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/diagrams.png",
         "title": "Diagrams.net",
         "tipos": [
           {
@@ -28,11 +28,11 @@
       },
       {
         "enlace": "https://brainly.lat/",
-        "img": "../img/paginas/brainly.png",
+        "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/brainly.png",
         "title": "Brainly",
         "tipos": [
           {
-            "tipo": "preguntas",
+            "tipo": "Preguntas",
             "color": "azul"
           },
           {
@@ -43,7 +43,7 @@
       },
       {
         "enlace": "https://origamiusa.org/",
-        "img": "../img/paginas/origamiusa.png",
+        "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/origamiusa.png",
         "title": "Origamiusa",
         "tipos": [
           {
@@ -51,14 +51,14 @@
             "color": "oro"
           },
           {
-            "tipo": "Exibiciones",
+            "tipo": "Exhibiciones",
             "color": "celeste"
           }
         ]
       },
       {
         "enlace": "https://www3.animeflv.net/",
-        "img": "../img/paginas/animeflv.png",
+        "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/animeflv.png",
         "title": "Animeflv",
         "tipos": [
           {
@@ -73,7 +73,7 @@
       },
       {
         "enlace": "https://minecraft.tools/es/",
-        "img": "../img/paginas/minecrafttools.png",
+        "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/minecrafttools.png",
         "title": "Minecraft Tools",
         "tipos": [
           {
@@ -88,7 +88,7 @@
       },
       {
         "enlace": "https://open.spotify.com/intl-es",
-        "img": "../img/paginas/spotify.png",
+        "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/spotify.png",
         "title": "Spotify",
         "tipos": [
           {
@@ -99,8 +99,8 @@
       },
       {
         "enlace": "https://www.w3schools.com/",
-        "img": "../img/paginas/w3scools.png",
-        "title": "W3scools",
+        "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/w3scools.png",
+        "title": "W3Schools",
         "tipos": [
           {
             "tipo": "Tarea",
@@ -110,7 +110,7 @@
       },
       {
         "enlace": "https://conversordeletras.net/",
-        "img": "../img/paginas/conversordeletras.png",
+        "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/conversordeletras.png",
         "title": "Conversor de Letras",
         "tipos": [
           {
@@ -118,25 +118,200 @@
             "color": "burlywood"
           }
         ]
-      }
-    ],
-    "Sugerencia": [
+      },
       {
-        "enlace": "https://forms.gle/TeF3WAXPgg9eS7F57",
-        "img": "../img/paginas/forms.png",
-        "title": "Mas Paginas",
-        "sugerencia": "Acá los envía a un formulario, para que sugieran páginas a añadir",
+        "enlace": "https://www.canva.com/",
+        "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/canva.png",
+        "title": "Canva",
         "tipos": [
           {
-            "tipo": "Google",
-            "color": "google"
+            "tipo": "Diseño",
+            "color": "rosa"
           },
           {
-            "tipo": "Formulario",
+            "tipo": "Generador",
+            "color": "burlywood"
+          }
+        ]
+      },
+      {
+        "enlace": "https://www.figma.com/",
+        "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/figma.png",
+        "title": "Figma",
+        "tipos": [
+          {
+            "tipo": "Diseño",
+            "color": "rosa"
+          },
+          {
+            "tipo": "Prototipado",
+            "color": "azul"
+          }
+        ]
+      },
+      {
+        "enlace": "https://www.tinkercad.com/",
+        "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/tinkercad.png",
+        "title": "Tinkercad",
+        "tipos": [
+          {
+            "tipo": "Modelado 3D",
+            "color": "verde"
+          },
+          {
+            "tipo": "Electrónica",
+            "color": "amarillo"
+          }
+        ]
+      },
+      {
+        "enlace": "https://www.scribbr.com/",
+        "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/scribbr.png",
+        "title": "Scribbr",
+        "tipos": [
+          {
+            "tipo": "Corrección",
+            "color": "azul"
+          },
+          {
+            "tipo": "Edición",
+            "color": "verde"
+          }
+        ]
+      },
+      {
+        "enlace": "https://www.zamzar.com/",
+        "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/zamzar.png",
+        "title": "Zamzar",
+        "tipos": [
+          {
+            "tipo": "Conversión",
+            "color": "gris"
+          },
+          {
+            "tipo": "Archivos",
             "color": "morado"
           }
         ]
+      },
+      {
+        "enlace": "https://www.photopea.com/",
+        "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/photopea.png",
+        "title": "Photopea",
+        "tipos": [
+          {
+            "tipo": "Edición de Imágenes",
+            "color": "rojo"
+          },
+          {
+            "tipo": "Diseño",
+            "color": "rosa"
+          }
+        ]
+      },
+      {
+        "enlace": "https://www.lucidchart.com/",
+        "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/lucidchart.png",
+        "title": "Lucidchart",
+        "tipos": [
+          {
+            "tipo": "Diagramas",
+            "color": "morado"
+          },
+          {
+            "tipo": "Tareas",
+            "color": "verde"
+          }
+        ]
+      },
+      {
+        "enlace": "https://www.random.org/",
+        "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/randomorg.png",
+        "title": "Random.org",
+        "tipos": [
+          {
+            "tipo": "Generador",
+            "color": "burlywood"
+          }
+        ]
+      },
+      {
+        "enlace": "https://www.pdfescape.com/",
+        "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/pdfescape.png",
+        "title": "PDFescape",
+        "tipos": [
+          {
+            "tipo": "PDF",
+            "color": "gris"
+          },
+          {
+            "tipo": "Edición",
+            "color": "verde"
+          }
+        ]
+      },
+      {
+        "enlace": "https://www.wallpaperflare.com",
+        "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/wallpaperflare.png",
+        "title": "WallpaperFlare",
+        "tipos": [
+          {
+            "tipo": "Fondos de Pantalla",
+            "color": "azul"
+          }
+        ]
+      },
+      {
+        "enlace": "https://rahuldkjain.github.io/gh-profile-readme-generator/",
+        "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/gh-profile-readme-generator.png",
+        "title": "GitHub Profile README Generator",
+        "tipos": [
+          {
+            "tipo": "Generador",
+            "color": "burlywood"
+          }
+        ]
+      },
+      {
+        "enlace": "https://colorhunt.co",
+        "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/colorhunt.png",
+        "title": "Color Hunt",
+        "tipos": [
+          {
+            "tipo": "Paletas de Colores",
+            "color": "rojo"
+          }
+        ]
+      },
+      {
+        "enlace": "https://heroicons.com",
+        "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/heroicons.png",
+        "title": "Heroicons",
+        "tipos": [
+          {
+            "tipo": "Íconos",
+            "color": "verde"
+          }
+        ]
       }
-    ]
-  }
-  
+    ] 
+,  
+  "Sugerencia": [
+    {
+      "enlace": "https://forms.gle/TeF3WAXPgg9eS7F57",
+      "img": "https://github.com/BryanGuevara/Inicio/raw/main/img/paginas/forms.png",
+      "title": "Mas Paginas",
+      "sugerencia": "Acá los envía a un formulario, para que sugieran páginas a añadir",
+      "tipos": [
+        {
+          "tipo": "Google",
+          "color": "google"
+        },
+        {
+          "tipo": "Formulario",
+          "color": "morado"
+        }
+      ]
+    }
+  ]
+}
