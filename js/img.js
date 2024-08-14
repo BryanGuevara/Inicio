@@ -10,7 +10,7 @@ async function cargarImagenes() {
         imagenesFondo = await response.json();
 
         // Forzar el uso de "1.png"
-        const imagenSeleccionada = "https://github.com/BryanGuevara/Inicio/raw/main/img/fondos/1.png";
+        const imagenSeleccionada = "https://github.com/BryanGuevara/Inicio/raw/main/img/fondos/1.jpg";
         // Pre-cargar la imagen y establecer el fondo
         await preCargarImagen(imagenSeleccionada);
         document.getElementById("body").style.backgroundImage = `url(${imagenSeleccionada})`;
