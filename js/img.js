@@ -8,25 +8,49 @@ async function cargarImagenes() {
         const response = await fetch(rutaImagenesJSON);
         if (!response.ok) throw new Error("No se pudo cargar el JSON");
         imagenesFondo = await response.json();
-
-        // Forzar el uso de "1.png"
-        const imagenSeleccionada = "https://github.com/BryanGuevara/Inicio/raw/main/img/fondos/1.jpg";
-        // Pre-cargar la imagen y establecer el fondo
-        await preCargarImagen(imagenSeleccionada);
-        document.getElementById("body").style.backgroundImage = `url(${imagenSeleccionada})`;
+        await preCargarImagenes(imagenesFondo);
+        cambiarFondo();
     } catch (error) {
         console.error("Error al cargar imágenes desde JSON:", error);
         document.getElementById("body").style.backgroundImage = `url(${fondoPorDefecto})`;
     }
 }
 
-async function preCargarImagen(url) {
-    return new Promise((resolve, reject) => {
-        const img = new Image();
-        img.src = url;
-        img.onload = () => resolve(url);
-        img.onerror = () => reject(new Error(`No se pudo cargar la imagen: ${url}`));
+async function preCargarImagenes(urls) {
+    const preloadedImages = urls.map(url => {
+        return new Promise((resolve, reject) => {
+            const img = new Image();
+            img.src = url;
+            img.onload = () => resolve(url);
+            img.onerror = () => resolve(null); 
+        });
     });
+    await Promise.all(preloadedImages);
+}
+
+function cambiarFondo() {
+    try {
+        if (imagenesFondo.length === 0) {
+            document.getElementById("body").style.backgroundImage = `url(${fondoPorDefecto})`;
+            return;
+        }
+
+        const imagenSeleccionada = imagenesFondo[Math.floor(Math.random() * imagenesFondo.length)];
+
+        const img = new Image();
+        img.src = imagenSeleccionada;
+
+        img.onload = function() {
+            document.getElementById("body").style.backgroundImage = `url(${imagenSeleccionada})`;
+        };
+
+        img.onerror = function() {
+            document.getElementById("body").style.backgroundImage = `url(${fondoPorDefecto})`;
+        };
+    } catch (error) {
+        console.error("Error al cambiar el fondo:", error);
+        document.getElementById("body").style.backgroundImage = `url(${fondoPorDefecto})`;
+    }
 }
 
 cargarImagenes();
