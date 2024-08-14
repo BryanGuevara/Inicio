@@ -2,13 +2,13 @@ document.addEventListener("DOMContentLoaded", function() {
     fetch('../json/jugar.json')
         .then(response => response.json())
         .then(data => {
-            
             const onlineContainer = document.getElementById('Online');
             const offlineContainer = document.getElementById('Offline'); 
             const descargarContainer = document.getElementById('Descargar');
             const romsContainer = document.getElementById('Roms');
+            const tempSrc = '../img/iconos/cargando.png'; 
 
-            function createGameCard(item) {
+            function createGameCard(item, tempSrc) {
                 const card = document.createElement('a');
                 card.href = item.enlace;
                 card.className = 'web-card';
@@ -16,8 +16,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 const cardImg = document.createElement('div');
                 cardImg.className = 'card-img';
                 const img = document.createElement('img');
-                img.src = item.img;
-                img.alt = 'Necesita conexion a internet';
+                img.src = tempSrc; 
+                img.alt = 'Imagen de la pagina';
                 cardImg.appendChild(img);
 
                 const cardInfo = document.createElement('div');
@@ -39,28 +39,37 @@ document.addEventListener("DOMContentLoaded", function() {
                 card.appendChild(cardImg);
                 card.appendChild(cardInfo);
 
-                return card;
+                return { card, img }; 
             }
 
-            data.Online.forEach(item => {
-                const card = createGameCard(item);
-                onlineContainer.appendChild(card);
-            });
+            function loadImage(src) {
+                return new Promise((resolve, reject) => {
+                    const img = new Image();
+                    img.onload = () => resolve(src);
+                    img.onerror = () => reject(src);
+                    img.src = src;
+                });
+            }
 
-            data.Offline.forEach(item => {
-                const card = createGameCard(item);
-                offlineContainer.appendChild(card);
-            });
+            function loadCards(container, items) {
+                const cards = items.map(item => createGameCard(item, tempSrc));
+                cards.forEach(({ card }) => container.appendChild(card));
 
-            data.Descargar.forEach(item => {
-                const card = createGameCard(item);
-                descargarContainer.appendChild(card);
-            });
+                const imagePromises = items.map(item => loadImage(item.img).catch(() => '../img/iconos/error.png'));
 
-            data.Roms.forEach(item => {
-                const card = createGameCard(item);
-                romsContainer.appendChild(card);
-            });
+                Promise.all(imagePromises).then(images => {
+                    items.forEach((item, index) => {
+                        const imgElement = cards[index].img;
+                        imgElement.src = images[index]; 
+                    });
+                })
+                .catch(error => console.error('Error al cargar las imágenes:', error));
+            }
+
+            loadCards(onlineContainer, data.Online);
+            loadCards(offlineContainer, data.Offline);
+            loadCards(descargarContainer, data.Descargar);
+            loadCards(romsContainer, data.Roms);
         })
         .catch(error => console.error('Error al cargar el archivo JSON:', error));
 });

@@ -3,8 +3,9 @@ document.addEventListener("DOMContentLoaded", function() {
         .then(response => response.json())
         .then(data => {
             const iaContainer = document.getElementById('IA');
+            const placeholderSrc = '../img/iconos/cargando.png'; 
 
-            function createGameCard(item) {
+            function createGameCard(item, tempSrc) {
                 const card = document.createElement('a');
                 card.href = item.enlace;
                 card.className = 'web-card';
@@ -12,8 +13,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 const cardImg = document.createElement('div');
                 cardImg.className = 'card-img';
                 const img = document.createElement('img');
-                img.src = item.img;
-                img.alt = 'Necesita conexion a internet';
+                img.src = tempSrc; 
+                img.alt = 'logo de pagina';
                 cardImg.appendChild(img);
 
                 const cardInfo = document.createElement('div');
@@ -35,13 +36,30 @@ document.addEventListener("DOMContentLoaded", function() {
                 card.appendChild(cardImg);
                 card.appendChild(cardInfo);
 
-                return card;
+                return { card, img }; 
             }
 
-            data.IA.forEach(item => {
-                const card = createGameCard(item);
-                iaContainer.appendChild(card);
-            });
+            const cards = data.IA.map(item => createGameCard(item, placeholderSrc));
+            cards.forEach(({ card }) => iaContainer.appendChild(card));
+
+            function loadImage(src) {
+                return new Promise((resolve, reject) => {
+                    const img = new Image();
+                    img.onload = () => resolve(src);
+                    img.onerror = () => reject(src);
+                    img.src = src;
+                });
+            }
+
+            const imagePromises = data.IA.map(item => loadImage(item.img).catch(() => '../img/iconos/error.png'));
+
+            Promise.all(imagePromises).then(images => {
+                images.forEach((src, index) => {
+                    const imgElement = cards[index].img;
+                    imgElement.src = src; 
+                });
+            })
+            .catch(error => console.error('Error al cargar las imágenes:', error));
         })
         .catch(error => console.error('Error al cargar el archivo JSON:', error));
 });
